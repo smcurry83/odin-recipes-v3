@@ -1,5 +1,55 @@
+* {
+   border: dashed 1px lightgray;
+}
+
 body {
   background-color: rgb(161, 204, 161);
+}
+
+.container {
+  
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.recipe-menu {
+  padding: 5px;
+}
+
+.recipe-menu > a {
+  font-size: 24px;
+  font-weight: bold;
+  padding-inline: 15px;
+  color: darkgreen;
+  background-color: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.recipe-menu > a:hover {
+  font-size: 24px;
+  font-weight: bold;
+  padding-inline: 15px;
+  color: darkgreen;
+  background-color: darkgray;
+  border: solid 1px white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#title-screen {
+  margin-top: 100px;
+}
+
+#title-screen > h1 {
+  font-size: 64px;
 }
 
 .header {
