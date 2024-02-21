@@ -72,6 +72,16 @@ body {
   font-size: 96px;
 }
 
+.description,
+.ingredients,
+.steps {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
 .recipe-list, p {
   text-align: center;
 }
